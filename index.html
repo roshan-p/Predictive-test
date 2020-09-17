@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>TEST WEB APP</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Custom styles for this template -->
+  <link href="css/test-web.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="logo-div">
+      <img class="logo-img"
+        src="https://upload.wikimedia.org/wikipedia/commons/3/33/%E0%B9%81%E0%B8%AA%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B8%B4-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%99-logo-en.jpg"
+        alt="logo" width="120" height="23">
+    </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg  custom-navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link menu-font" href="#">รู้จักแสนสิริ
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-font" href="#">โครงการ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-font" href="#">บริการ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-font" href="#">ผู้ลงทุนสัมพันธ์</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-font" href="#">เพื่อชีวิตยั่งยืน</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-font" href="#">การร่วมธุนทางธุรกิจ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div id="slider-id" class="slider-container carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://dummyimage.com/1920x665/000/ffffff&text=+TEST+IMG" alt="IMAGE 1" width="1920" height="665">
+        </div>
+        <div class="carousel-item">
+          <img src="https://dummyimage.com/1920x665/000/ffffff&text=+TEST+IMG" alt="IMAGE 2" width="1920" height="665">
+        </div>
+        <div class="carousel-item">
+          <img src="https://dummyimage.com/1920x665/000/ffffff&text=+TEST+IMG" alt="IMAGE 3" width="1920" height="665">
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+  <div class="content">
+    <section class="welcome-section">
+      <div class="welcome-container intro-text">
+        <h1>บ้านเดี่ยวแสนสิริ</h1>
+        <h2>บ้าน...ที่ใช่ในทุกความรู้สึก</h2>
+        <p>
+          ด้วยดีไซน์สง่างามสมความภาคภูมิ คิดทุกรายละเอียดของการใช้ชีวิต
+          สู่ฟังก์ชันที่ตอบโจทย์การใช้งานเพื่อเชื่อมต่อความสุขและความผูกพันของครอบครัว และยังเชื่อมต่อกับสังคมคุณภาพ
+          ด้วยคลับเฮาส์ และส่วนกลางที่ออกแบบอย่างดี พร้อมความอุ่นใจจากมาตรฐานความปลอดภัยสูงสุด
+          ผ่านเทคโนโลยีทันสมัยครอบคลุมทุกพื้นที่
+        </p>
+      </div>
+    </section>
+    <div class="list-container">
+      <div class="list-heading">
+        <h2>บ้านเดี่ยว</h2>
+        <h3 class="home-total">
+          จำนวนทั้งหมด <span>
+            43
+          </span>โครงการ </h3>
+        <div class="action-button-absolute hidden-w980">
+          <button type="button" class="btn btn-search">ค้นหาจากแบรนด์บ้านเดี่ยว</button>
+        </div>
+      </div>
+      <div class="filter-container">
+        <div class="filter-block">
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2 gridlist-display" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary gridview current view-btn-active"><i
+                  class="fas fa-th align-middle view-icon-active"></i></button>
+              <button type="button" class="btn btn-primary tab-link gridlist current view-btn-inactive"><i
+                  class="fas fa-list align-middle view-icon-inactive"></i></button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Second group">
+              <button type="button" class="btn  btn-primary btn-map"><i
+                  class="fas fa-map-marked-alt map-icon-inactive"></i></button>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="filter-menu" class="row-filter">
+          <div class="row" id="navbarNav">
+            <div class="col-filter col-relative col-sm-12 col-md-6 col-lg-3">
+              <button type="button" class="btn row-filter-btn">เลือกสถานะโครงการ <text
+                  class="filter-dropdown-icon-right-active">1&nbsp;&nbsp;<i class="fas fa-filter"
+                    aria-hidden="true"></i> </text></button>
+            </div>
+            <div class="col-filter location-filter col-sm-12 col-md-6 col-lg-3">
+              <button type="button" class="btn row-filter-btn ">เลือกทำเลที่น่าสนใจ<text
+                  class="filter-dropdown-icon-right">&nbsp;&nbsp;<i class="fas fa-filter" aria-hidden="true"></i>
+                </text></button>
+            </div>
+            <div class="col-filter startprice col-sm-12 col-md-6 col-lg-3">
+              <button type="button" class="btn row-filter-btn">ราคาโครงการเริ่มต้น <text
+                  class="filter-dropdown-icon-right">&nbsp;&nbsp;<i class="fas fa-filter" aria-hidden="true"></i>
+                </text></button>
+            </div>
+            <div class="col-filter col-relative sort-filter col-sm-12 col-md-6 col-lg-3">
+              <button type="button" class="btn row-filter-btn">เรียงตามลำดับ ใหม่-เก่า <text
+                  class="filter-dropdown-icon-right">&nbsp;&nbsp;<i class="fas fa-filter" aria-hidden="true"></i>
+                </text></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="card-deck mx-auto">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://s3-ap-southeast-1.amazonaws.com/o77site/saransiri-rangsit-house-portrait.jpg"
+              alt="Card image cap">
+            <div class="card-body ">
+              <div class="c-box-head">
+                <div class="c-heading-h3">
+                  <h3>
+                    <div class="name">เศรษฐสิริ</div>
+                    <div class="location">กรุงเทพ - ปทุมธานี</div>
+                  </h3>
+                </div>
+              </div>
+              <div class="c-box-caption">
+                <p class="c-desc">
+                  เตรียมพบโครงการใหม่
+                  ทรรศะที่เป็นหนึ่ง
+                  ชีวิตที่สมบูรณ์แบบ บนวิวสนามกอล์ฟ </p>
+                <div class="c-startprice">
+                  เริ่มต้นที่ 8.99 ล้านบาท
+                </div>
+                <div class="c-facility facility">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> เดอะทรี<br>Community<br>Centre<br>3.6&nbsp;กม.</span> </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> บิ๊ก ซี ปทุมธานี <br>7.3&nbsp;กม. </span> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-action">
+                  <button type="button" class="btn  btn-primary btn-detail">ดูรายละเอียด <i
+                      class="fas fa-angle-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://s3-ap-southeast-1.amazonaws.com/o77site/saransiri-rangsit-house-portrait.jpg"
+              alt="Card image cap">
+            <div class="card-body ">
+              <div class="c-box-head">
+                <div class="c-heading-h3">
+                  <h3>
+                    <div class="name">เศรษฐสิริ</div>
+                    <div class="location">กรุงเทพ - ปทุมธานี</div>
+                  </h3>
+                </div>
+              </div>
+              <div class="c-box-caption">
+                <p class="c-desc">
+                  เตรียมพบโครงการใหม่
+                  ทรรศะที่เป็นหนึ่ง
+                  ชีวิตที่สมบูรณ์แบบ บนวิวสนามกอล์ฟ </p>
+                <div class="c-startprice">
+                  เริ่มต้นที่ 8.99 ล้านบาท
+                </div>
+                <div class="c-facility facility">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> เดอะทรี<br>Community<br>Centre<br>3.6&nbsp;กม.</span> </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> บิ๊ก ซี ปทุมธานี <br>7.3&nbsp;กม. </span> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-action">
+                  <button type="button" class="btn  btn-primary btn-detail">ดูรายละเอียด <i
+                      class="fas fa-angle-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://s3-ap-southeast-1.amazonaws.com/o77site/saransiri-rangsit-house-portrait.jpg"
+              alt="Card image cap">
+            <div class="card-body ">
+              <div class="c-box-head">
+                <div class="c-heading-h3">
+                  <h3>
+                    <div class="name">เศรษฐสิริ</div>
+                    <div class="location">กรุงเทพ - ปทุมธานี</div>
+                  </h3>
+                </div>
+              </div>
+              <div class="c-box-caption">
+                <p class="c-desc">
+                  เตรียมพบโครงการใหม่
+                  ทรรศะที่เป็นหนึ่ง
+                  ชีวิตที่สมบูรณ์แบบ บนวิวสนามกอล์ฟ </p>
+                <div class="c-startprice">
+                  เริ่มต้นที่ 8.99 ล้านบาท
+                </div>
+                <div class="c-facility facility">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> เดอะทรี<br>Community<br>Centre<br>3.6&nbsp;กม.</span> </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> บิ๊ก ซี ปทุมธานี <br>7.3&nbsp;กม. </span> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-action">
+                  <button type="button" class="btn  btn-primary btn-detail">ดูรายละเอียด <i
+                      class="fas fa-angle-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://s3-ap-southeast-1.amazonaws.com/o77site/saransiri-rangsit-house-portrait.jpg"
+              alt="Card image cap">
+            <div class="card-body ">
+              <div class="c-box-head">
+                <div class="c-heading-h3">
+                  <h3>
+                    <div class="name">เศรษฐสิริ</div>
+                    <div class="location">กรุงเทพ - ปทุมธานี</div>
+                  </h3>
+                </div>
+              </div>
+              <div class="c-box-caption">
+                <p class="c-desc">
+                  เตรียมพบโครงการใหม่
+                  ทรรศะที่เป็นหนึ่ง
+                  ชีวิตที่สมบูรณ์แบบ บนวิวสนามกอล์ฟ </p>
+                <div class="c-startprice">
+                  เริ่มต้นที่ 8.99 ล้านบาท
+                </div>
+                <div class="c-facility facility">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> เดอะทรี<br>Community<br>Centre<br>3.6&nbsp;กม.</span> </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> บิ๊ก ซี ปทุมธานี <br>7.3&nbsp;กม. </span> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-action">
+                  <button type="button" class="btn  btn-primary btn-detail">ดูรายละเอียด <i
+                      class="fas fa-angle-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://s3-ap-southeast-1.amazonaws.com/o77site/saransiri-rangsit-house-portrait.jpg"
+              alt="Card image cap">
+            <div class="card-body ">
+              <div class="c-box-head">
+                <div class="c-heading-h3">
+                  <h3>
+                    <div class="name">เศรษฐสิริ</div>
+                    <div class="location">กรุงเทพ - ปทุมธานี</div>
+                  </h3>
+                </div>
+              </div>
+              <div class="c-box-caption">
+                <p class="c-desc">
+                  เตรียมพบโครงการใหม่
+                  ทรรศะที่เป็นหนึ่ง
+                  ชีวิตที่สมบูรณ์แบบ บนวิวสนามกอล์ฟ </p>
+                <div class="c-startprice">
+                  เริ่มต้นที่ 8.99 ล้านบาท
+                </div>
+                <div class="c-facility facility">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> เดอะทรี<br>Community<br>Centre<br>3.6&nbsp;กม.</span> </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> บิ๊ก ซี ปทุมธานี <br>7.3&nbsp;กม. </span> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-action">
+                  <button type="button" class="btn  btn-primary btn-detail">ดูรายละเอียด <i
+                      class="fas fa-angle-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://s3-ap-southeast-1.amazonaws.com/o77site/saransiri-rangsit-house-portrait.jpg"
+              alt="Card image cap">
+            <div class="card-body ">
+              <div class="c-box-head">
+                <div class="c-heading-h3">
+                  <h3>
+                    <div class="name">เศรษฐสิริ</div>
+                    <div class="location">กรุงเทพ - ปทุมธานี</div>
+                  </h3>
+                </div>
+              </div>
+              <div class="c-box-caption">
+                <p class="c-desc">
+                  เตรียมพบโครงการใหม่
+                  ทรรศะที่เป็นหนึ่ง
+                  ชีวิตที่สมบูรณ์แบบ บนวิวสนามกอล์ฟ </p>
+                <div class="c-startprice">
+                  เริ่มต้นที่ 8.99 ล้านบาท
+                </div>
+                <div class="c-facility facility">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> เดอะทรี<br>Community<br>Centre<br>3.6&nbsp;กม.</span> </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <span class="icon-distance"> <i class="fas fa-shopping-bag"></i>
+                      </span>
+                      <div class="content-distance">
+                        <p> บิ๊ก ซี ปทุมธานี <br>7.3&nbsp;กม. </span> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-action">
+                  <button type="button" class="btn  btn-primary btn-detail">ดูรายละเอียด <i
+                      class="fas fa-angle-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <section id="session-project-brand" class="section-condo-list ads-san">
+      <div class="service-img  lazyloaded" alt="แบรนด์บ้านเดี่ยว แสนสิริ"
+        style="background-image: url('https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG');"
+        data-bg="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG">
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="sansiri-text-banner">
+            <div class="service-topic">
+              <h2>
+                แสนสิริ แบรนด์บ้านเดี่ยว
+                <span>เลือกชมโครงการบ้านเดี่ยวจากแบรนด์ที่คุณสนใจได้ ที่นี่</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container-item-condo">
+          <!-- <div class="row-item-condo"> -->
+          <div class="row justify-content-center">
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+               
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+                  height="100%"
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+                
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+               
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+            <div class="d-none d-xl-block w-100"></div>
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+            <div class="item-condo col-4 col-lg-2">
+              <a href="#" class="c-color">
+                <img src="https://dummyimage.com/600x400/000/ffffff&text=TEST+IMG"
+                  width="100%"
+                  title="test" class="lazyloaded">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ads-section ads-san-condo">
+      <div class="container ads-container">
+        <div class="heading">
+          <h2>
+            MADE FOR LIFE
+          </h2>
+          <h3>สําหรับแสนสิริ&nbsp;‘บ้าน’ ไม่ได้เป็นเพียงแค่ที่อยู่อาศัย</h3>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="item-service col-lg-3">
+          <div class="service-img">
+            <div class="service-img-design ga-main-experience" alt="MADE FOR EVERYDAY - PRODUCT"
+              style="background-image: url('https://dummyimage.com/600x400/000/ffffff&text=+');">
+              <h3>MADE FOR EVERYDAY</h3>
+            </div>
+          </div>
+          <div class="service-description">
+            เพราะชีวิตดีๆ...เริ่มต้นที่บ้าน&nbsp;เราจึงมองหาคําตอบของการใช้ชีวิตที่คุณต้องการ
+            เพื่อนำสิ่งนั้นมาประกอบขึ้นเป็น ‘บ้าน’
+          </div>
+        </div>
+        <div class="item-service col-lg-3">
+          <div class="service-img">
+            <div class="service-img-quality ga-main-experience" alt="MADE FOR YOU – SERVICE"
+              style="background-image: url('https://dummyimage.com/600x400/000/ffffff&text=+');">
+              <h3>MADE FOR YOU</h3>
+            </div>
+          </div>
+          <div class="service-description">
+            เราเชื่อว่า 'รอยยิ้ม'&nbsp;คือมาตรวัดที่ดีที่สุดของการบริการ&nbsp;เราจึงตั้งใจส่งต่อความสุขด้วยการบริการ
+            และการดูแลที่ครอบคลุมทุกๆ ที่รอบตัวคุณ
+          </div>
+
+        </div>
+        <div class="item-service col-lg-3">
+          <div class="service-img">
+            <div class="service-img-innovation ga-main-experience" alt="MADE FOR SHARING – CULTURE"
+              style="background-image: url('https://dummyimage.com/600x400/000/ffffff&text=+');">
+              <h3>MADE FOR SHARING</h3>
+            </div>
+          </div>
+          <div class="service-description">
+            เพราะวัฒนธรรม&nbsp;เป็นหัวใจสำคัญของการเข้าใจ
+            และสร้างพื้นที่เพื่อทุกคน&nbsp;เราจึงสร้างพื้นที่ให้คุณได้ร่วมแบ่งปันมุมมองการใช้ชีวิต
+          </div>
+
+        </div>
+        <div class="item-service col-lg-3">
+          <div class="service-img">
+            <div class="service-img-service ga-main-experience" alt="MADE FOR BETTER – SUSTAINABILITY"
+              style="background-image: url('https://dummyimage.com/600x400/000/ffffff&text=+');">
+              <h3>MADE FOR BETTER</h3>
+            </div>
+          </div>
+          <div class="service-description">
+            เพื่อโลกที่น่าอยู่มากขึ้น แสนสิริจึงตั้งใจเนรมิตให้ทุกพื้นที่มีสภาพแวดล้อมที่ดี เพื่อพวกเราทุกคน
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="san-footer">
+      <div class="san-btn">
+        <a href="" class="totop"> </a>
+      </div>
+      <div class="san-footer-link">
+        <div class="container">
+          <div class="san-inner-footer">
+            <div class="row">
+              <div
+                class="col-xs-12 col-sm-6 col-md-6 col-md-6 col-xl-2 sf-1 col-sm-12">
+                <ul>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">โปรโมชัน</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">โครงการพร้อมอยู่</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">ความคืบหน้าโครงการ</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">คําแนะนําในการซื้อ</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank" class="nav-footer">แบบบ้าน</a>
+                    </h4>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="col-xs-12 col-sm-6 col-md-6 col-md-6 col-xl-2 sf sf-2 col-sm-12">
+                <h4><a href="#" target="_blank" class="nav-footer">โครงการน่าลงทุน</a>
+                </h4>
+                <ul>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">คอนโดพญาไท-ราชเทวี</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">คอนโดทองหล่อ-สุขุมวิท</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">คอนโดรัชดา-พระราม 9</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">คอนโดหมอชิต-พหลฯ</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">คอนโดติด
+                      BTS - MRT</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">คอนโดต่างจังหวัด</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">คอนโดน่าลงทุน</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านปิ่นเกล้า</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านสายไหม-รังสิต-ปทุมธานี</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">บ้านพระราม
+                      2</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านราชพฤกษ์</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านบางนา-ศรีนครินทร์</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านรามอินทรา-เกษตรนวมินทร์</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านงามวงศ์วาน-แจ้งวัฒนะ</a> </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านต่างจังหวัด</a> </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-md-6 col-xl-2 sf sf-3">
+                <h4>โครงการแสนสิริ</h4>
+                <ul>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านเดี่ยว</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">ทาวน์โฮม</a>
+                  </li>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">คอนโดมิเนียม</a> </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-md-6 col-xl-2 sf sf-4">
+                <h4><a href="#" target="_blank"
+                    class="nav-footer">แบรนด์บ้านเดี่ยว</a> </h4>
+                <ul>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">บ้านแสนสิริ</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">นาราสิริ</a>
+                  </li>
+                  <li><a href="#" target="_blank" class="nav-footer">เศรษฐสิริ</a>
+                  </li>
+                  <li><a href="#" target="_blank" class="nav-footer">บุราสิริ</a>
+                  </li>
+                  <li><a href="#" target="_blank" class="nav-footer">สราญสิริ</a>
+                  </li>
+                  <li><a href="#" target="_blank" class="nav-footer">คณาสิริ</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">อณาสิริ</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">ฮาบิเทีย</a> </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-md-6 col-xl-2 sf sf-5">
+                <h4><a href="#" target="_blank"
+                    class="nav-footer">แบรนด์ทาวน์โฮม</a> </h4>
+                <ul>
+                  <li><a href="#" target="_blank"
+                      class="nav-footer">ไทเกอร์ เลน</a> </li>
+                  <li<a href="#" target="_blank" class="nav-footer">ทาวน์
+                      อเวนิว</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">สิริ
+                      สแควร์</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">สิริอเวนิว</a>
+                  </li>
+                  <li><a href="#" target="_blank" class="nav-footer">สิริเพลส</a>
+                  </li>
+                  <li><a href="#" target="_blank" target="_blank"
+                      class="nav-footer">เมททาวน์</a> </li>
+                  <li><a href="#" target="_blank" target="_blank"
+                      class="nav-footer">วีวิลเลจ</a> </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-md-6 col-xl-2 sf sf-6">
+                <h4><a href="#" target="_blank"
+                    class="nav-footer">แบรนด์คอนโดมิเนียม</a> </h4>
+                <ul>
+                  <li><a href="#" target="_blank" class="nav-footer">98
+                      Wireless</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">เดอะ
+                      โมนูเม้นต์</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">KHUN
+                      by yoo</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">เวีย</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">เอ็กซ์ที</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">เดอะ ไลน์</a>
+                  </li>
+                  <li><a href="#" target="_blank" class="nav-footer">เอดจ์</a> </li>
+                  <li<a href="#" target="_blank" class="nav-footer">เฮาส์</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">เดอะ เบส</a> </li>
+                  <li><a href="#" target="_blank" class="nav-footer">ดีคอนโด</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="san-inner-footer2">
+            <div class="row">
+              <div class="col-6 col-sm-6 col-md-6 col-lg-12 col-xl-4">
+                <div class="row">
+                  <div class="col-12 col-md-12 col-lg-6 sf-7">
+                    <ul>
+                      <li>
+                        <h4><a href="#" target="_blank"
+                            class="nav-footer">รู้จักแสนสิริ</a> </h4>
+                      </li>
+                      <li>
+                        <h4><a href="#" target="_blank"
+                            class="nav-footer">ผู้ลงทุนสัมพันธ์</a> </h4>
+                      </li>
+                      <li>
+                        <h4><a href="#" target="_blank"
+                            class="nav-footer">ข่าวสาร</a> </h4>
+                      </li>
+                      <li>
+                        <h4><a href="#" target="_blank" class="nav-footer">แสนสิริ บล็อก</a>
+                        </h4>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-md-12 col-lg-6 sf-8">
+                    <ul>
+                      <li>
+                        <h4><a href="#" target="_blank"
+                            class="nav-footer">บริการจากแสนสิริ</a> </h4>
+                      </li>
+                      <li>
+                        <h4><a href="#" target="_blank"
+                            class="nav-footer">แสนสิริ ไลฟ์สไตล์</a> </h4>
+                      </li>
+                      <li>
+                        <h4><a href="#" target="_blank"
+                            class="nav-footer">เพื่อชีวิตที่ยั่งยืน</a> </h4>
+                      </li>
+                      <li>
+                        <h4><a href="#" target="_blank"
+                            class="nav-footer">การร่วมทุนทางธุรกิจ</a> </h4>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3 sf-9">
+                <ul>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">เสนอขายที่ดิน</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">เสนอผู้รับเหมา</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">เสนอขายสินค้า</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">ร่วมงานกับแสนสิริ</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">ติดต่อแสนสิริ</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">ผังเว็บไซต์</a> </h4>
+                  </li>
+                  <li>
+                    <h4><a href="#" target="_blank"
+                        class="nav-footer">นโยบายความเป็นส่วนตัว</a> </h4>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-5 col-xl-4 offset-xl-1 sf-10">
+                <h3>ติดตามแสนสิริ โซเชียล เน็ตเวิร์ก</h3>
+                <p> เพื่อติดต่อกับเรา และแชร์ความหลงใหลในแบรนด์ผลิตภัณฑ์ <br
+                    class="d-none d-xl-block">และบริการของแสนสิริ </p>
+                <ul class="sansiri-social">
+                  <li><a href="#" target="_blank"
+                      class="social-footer fb"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#" target="_blank" class="social-footerl tw"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li><a href="#" target="_blank"
+                      class="social-footerl ig"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#" target="_blank"
+                      class="social-footerl yt"><i class="fab fa-youtube"></i></a></li>
+                  <li><a href="#" target="_blank"
+                      class="social-footerl line"><i class="fab fa-line"></i></a></li>
+                  <li><a href="#" target="_blank"
+                      class="social-footerl wc"><i class="fab fa-weixin"></i></a></li>
+                  <li><a href="#" target="_blank" class="social-footerl bl">SANSIRI BLOG</a></li>
+                </ul>
+                <button type="button" class="btn btn-primary promotion-btn"><i class="far fa-envelope"></i>  รับข่าวสารและสิทธิพิเศษ</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="san-footer-copyright col-xs-12"> COPYRIGHT © 2019 , xxxxxxxx CO.,LTD ALL RIGHTS
+              RESERVED.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="san-footer-tools  ">
+        <div class="santh-container">
+          <div class="row">
+            <div class="col-9">
+              <a class="call" href="tel:1685">Call 1685</a>
+              <a target="_blank" href=""
+                class="calculate-tools">เครื่องคำนวณเงินกู้</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  </div>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
