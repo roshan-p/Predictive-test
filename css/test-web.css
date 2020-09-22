@@ -198,6 +198,7 @@ border-width: 1px;
   text-align: left;
 }
 .row-filter-btn{
+  font-size: 13px;
   height: 45px;
   width: 100%;
   border-radius: 50px;
@@ -205,6 +206,7 @@ border-width: 1px;
   border-width: 1px;
   border-color: rgb(139, 139, 139);
   color: #000;
+  
 }
 .filter-text{
   margin-top: 5px;
@@ -253,61 +255,12 @@ border-radius: 15px;
   font-size: 2.2rem;
   line-height: 1.4;
 }
-.section-condo .santh-list-condo .c-box-caption {
-  padding: 0 15px 10px 15px;
-}
-.section-condo .santh-list-condo .c-desc {
-  padding: 0;
-  margin: 0 0 30px 0;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  font-family: 'GraphikTH-Regular';
-  color: #162e46;
-}
+
 .c-startprice {
   font-family: 'GraphikTH-SemiBold';
   font-size: 1.6rem;
 }
-.santh-list-condo .c-facility.facility {
-  display: block;
-}
-.section-condo .santh-list-condo .c-action {
-  margin-top: 30px;
-}
-.section-condo .santh-list-condo .c-box-head {
-  position: relative;
-}
-.section-condo .santh-list-condo .c-heading-h3 {
-  padding: 20px 15px 5px 15px;
-}
-.section-condo .santh-list-condo .c-heading-h3 h3 {
-  margin: 0;
-  color: #162e46;
-  font-family: "GraphikTH-SemiBold";
-  font-size: 2.5rem;
-  font-size: 2.2rem;
-  line-height: 1.4;
-}
-.section-condo .santh-list-condo .c-heading-h3 h3 div {
-  display: block;
-}
-.section-condo .santh-list-condo .c-heading-h3 h3 div {
-  display: block;
-}
-.santh-list-condo .c-facility ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
-  font-size: 0;
-}
-.santh-list-condo .c-facility ul li {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  margin-bottom: 10px;
-  font-size: 1.3rem;
-  vertical-align: top;
-}
+
 .c-facility ul li img.ico-svg-ne {
   width: 35px;
   height: 35px;
@@ -317,13 +270,7 @@ border-radius: 15px;
   display: inline-block;
   vertical-align: top;
 }
-.santh-list-condo .c-facility ul li span {
-  display: inline-block;
-  color: #162e46;
-  width: 65%;
-  vertical-align: top;
-  padding-top: 5px;
-}
+
 .card-body{
   text-align: left;
 }
@@ -342,11 +289,6 @@ border-radius: 15px;
   color:black
 }
 
-/* @media only screen and (max-width: 1365px) {
-  #filter-menu {
-      display: none;
-  }
-} */
 .sansiri-text-banner{
   width: 800px;
   align-items: center;
