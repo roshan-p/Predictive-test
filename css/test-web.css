@@ -122,7 +122,6 @@ header{
 .row-filter, .filter-block {
   display: inline-block;
   vertical-align: middle;
-  font-size: 0;
 }
 .gridlist-display {
   margin: 0;
